@@ -1,0 +1,12 @@
+{
+  "meteor": {
+    "tag": "v0.5.4"
+  },
+  "name": "roomManager",
+  "description": "roomManager lets you manage rooms and users",
+  "homepage": "https://github.com/gavinmcdermott/roomManager",
+  "author": "Gavin McDermott  (http://gavinmcdermott.github.com/)",
+  "version": "0.0.1",
+  "git": "https://github.com/gavinmcdermott/roomManager.git",
+  "packages": {}
+}

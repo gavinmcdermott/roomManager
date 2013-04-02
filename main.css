@@ -1,0 +1,160 @@
+.createRoomControls {
+  background-color: #f2f0f0;
+  padding: 25px 0 25px 0;
+  width: 100%;
+  margin: 10px auto 0 auto;
+}
+
+.nameOfRoomField {
+  margin-left: 45px;
+  width: 480px;
+  height: 35px;
+  font-size: 1.75em;
+  border-radius: 6px;
+}
+
+.nameOfRoomField::-webkit-input-placeholder {
+  color: #ebebeb;
+}
+
+.createRoomButton {
+  margin-left: 115px;
+  height: 45px;
+  width: 200px;
+  font-size: 1.25em;
+  border-radius: 6px;
+  border-style: none;
+  color: white;
+  background: #C4C4C4;
+}
+
+.roomList {
+  text-align: center;
+  width: 33%;
+  height: 600px;
+  /*background-color: #f2f0f0;*/
+  overflow: scroll;
+  float: right;
+  clear: both;
+}
+
+.listedRoom {
+  background-color: #f2f0f0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 25px 0 25px 0;
+  clear: both;
+}
+
+.listedRoomName, .listedRoomCount {
+  display: block;
+  font-size: 1.25em;
+}
+
+.listedRoomName {
+  color: #e0242a;
+}
+
+.listedRoomCount {
+  margin-top: 15px;
+  color: #d9d9d9;
+}
+
+.joinRoom {
+  margin: 15px auto 0 auto;
+  display: block;
+  height: 45px;
+  width: 200px;
+  font-size: 1.25em;
+  border-radius: 6px;
+  color: white;
+  background: #C4C4C4;
+  font-weight: bold;
+  border-style: none;
+}
+
+.singleRoom {
+  width: 67%;
+  height: 580px;
+  background-color: #faf7f7;
+}
+
+.roomTitle {
+  margin: 0 auto 15px auto;
+  padding: 55px 0 55px 45px;
+  display: block;
+  background-color: #faf7f7;
+  color: #ADADAD;
+  font-size: 2em;
+}
+
+.roomMessageList {
+  width: 85%;
+  height: 300px;
+  overflow: scroll;
+  background-color: white;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.msgSender {
+  color: #ebebeb;
+  display: block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.msgText {
+  color: #2d2828;
+  display: block;
+  font-size: 1.25em;
+  margin: 7px 0 7px 15px;
+}
+
+.messageEntryArea {
+  width: 85%;
+  background-color: #f2f0f0;
+  margin: 10px auto 0 auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: block;
+  border-radius: 6px;
+}
+
+.msgEnterField {
+  margin: 0 auto;
+  display: block;
+  width: 480px;
+  height: 35px;
+  font-size: 1.75em;
+  border-radius: 6px;
+}
+
+.msgEnterField::-webkit-input-placeholder {
+  color: #ebebeb;
+}
+
+.sendMsgToRoom {
+  margin-left: 12px;
+  margin-top: 12px;
+  height: 45px;
+  width: 200px;
+  font-size: 1.25em;
+  border-radius: 6px;
+  border-style: none;
+  color: #f2f0f0;
+  background: -webkit-linear-gradient(top, #e0242a 0%, #b91e23 100%);
+}
+
+.leaveRoom {
+  float: right;
+  margin-right: 12px;
+  margin-top: 12px;
+  height: 45px;
+  width: 200px;
+  font-size: 1.25em;
+  border-radius: 6px;
+  border-style: none;
+  color: white;
+  background: #d9d9d9;
+}
